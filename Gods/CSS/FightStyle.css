@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Caesar";
+    src: url("../Fonts/MainFont/CAESAR.ttf") format("woff");
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../Images/IndexBackground.jpg");
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.GodsContainer {
+    margin-top: 50px;
+    width: 100%;
+    height: 30vh;
+    background-color: #00000056;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.God {
+    width: 160px;
+    height: 250px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 10px;
+}
+
+.SplashArt {
+    margin-top: 10px;
+    width: 135px;
+    height: 200px;
+}
+
+.GodName {
+    position: relative;
+    margin: auto;
+    color: #ffffff;
+    font-family: 'Caesar';
+    font-size: 20px;
+}
+
+.GodNickname {
+    position: relative;
+    margin: auto;
+    margin-top: -5%;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-family: 'Caesar';
+    font-size: 9px;
+}
+
+.GodSelection {
+    width: 150px;
+    position: relative;
+    color: #ffffff;
+    margin: auto;
+    font-family: 'Caesar';
+    font-size: 20px;
+    text-align: center;
+    background-color: #000000;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.FightButton {
+    background-color: #000000;
+    border: 1px solid white ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Caesar';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Inapoi {
+    position: absolute;
+    text-decoration: none;
+    border: 1px solid white;
+    letter-spacing: 2px;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.Inapoi:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}

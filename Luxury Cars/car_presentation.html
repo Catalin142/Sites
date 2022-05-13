@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Car presentation</title>
+    <meta charset=utf-8>
+    <link rel="stylesheet" href="styles/car_presentation.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <ul>
+                <li class="desc active"><a href="#desc">Despre</a></li>
+                <li class="info"><a href="#info">Detalii tehnice</a></li>
+                <li class="galerie"><a href="#galerie">Galerie</a></li>
+                <li style="float: right" ><a href="showroom.html">Inapoi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="desc">
+    </section>
+
+    <section id="info">
+        <div class="table_spec">
+            <div style="margin: auto; font-size: 50px;">Performante</div>
+
+            <div id="sp"></div>
+        </div>
+    </section>
+
+
+    <section id="galerie">
+        <div class="slideshow-container">
+            <div id="img_gal"></div>
+            <a class="prev" onclick="plus_slides(-1)">❮</a>
+            <a class="next" onclick="plus_slides(1)">❯</a>
+        </div>
+    </section>
+
+</body>
+
+<script src="scripts/jquery.js"></script>
+<script src="scripts/car_presentation.js"></script>
+
+</html>

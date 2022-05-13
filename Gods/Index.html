@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Gods</title>
+  <link rel="stylesheet" href="CSS/IndexStyle.css" />
+</head>
+
+<body class="body_background">
+  <div class="Title">Zeii lumii</div>
+  <a class="Arena" href="FightSelection.html">Catre Arena</a>
+  <div class="ButtonPanel">
+    <button onclick="changeMythology('all')">Toti</button>
+    <button onclick="changeMythology('greek')">Greci</button>
+    <button onclick="changeMythology('norse')">Nordici</button>
+    <button onclick="changeMythology('egyptian')">Egipteni</button>
+  </div>
+
+  <input type="text" placeholder="Cauta zeu..." id="SearchGod" class="SearchGod">
+  <div class="GodsContainer" id="container"></div>
+</body>
+<script src="JavaScript/External/JQuery.js"></script>
+<script src="JavaScript/IndexScript.js"></script>
+
+</html>

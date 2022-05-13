@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Caesar";
+    src: url("../Fonts/MainFont/CAESAR.ttf") format("woff");
+}
+
+body {
+    font-family: 'Caesar';
+    background-image: url("../Images/IndexBackground.jpg");
+    background-repeat: repeat;
+}
+
+.Title {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    text-align: center;
+}
+
+.Inapoi {
+    text-decoration: none;
+    border: 1px solid white;
+    letter-spacing: 2px;
+    margin-left: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.Inapoi:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.God {
+    font-family: 'Caesar';
+    margin-top: 100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+    margin-right: 100px;
+}
+
+.SplashArt {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 350px;
+    height: 570px;
+    margin-left: 200px;
+    margin-right: 50px;
+    float: left;
+}
+
+.Name {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.Nickname {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,1 @@
+start chrome %localhost/atestat/Index.html

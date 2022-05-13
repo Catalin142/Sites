@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Brasov</title>
+    <link rel="stylesheet" href="styles/brasov.css" />
+</head>
+
+<body>
+    <!--https://www.image-map.net/-->
+
+    <div class="title"> Brasov </div>
+    <div class="container">
+        <img src="resurse/brasov.jpg" usemap="#image-map" class="brasov">
+    </div>
+    <map name="image-map">
+        <area onmouseover="changeLoc('Tampa')" href="locatie.html?loc=tampa" coords="955,680,10" shape="circle">
+        <area onmouseover="changeLoc('Biserica Neagra')" href="locatie.html?loc=biserica_neagra" coords="630,357,10"
+            shape="circle">
+        <area onmouseover="changeLoc('Prima scoala romaneasca')" href="locatie.html?loc=prima_scoala_romaneasca"
+            coords="291,705,10" shape="circle">
+        <area onmouseover="changeLoc('Strada sforii')" href="locatie.html?loc=strada_sforii" coords="633,439,10"
+            shape="circle">
+        <area onmouseover="changeLoc('Bastionul tesatorilor')" href="locatie.html?loc=bastionul_tesatorilor"
+            coords="672,642,10" shape="circle">
+        <area onmouseover="changeLoc('Poarta schei')" href="locatie.html?loc=poarta_schei" coords="548,484,10"
+            shape="circle">
+        <area onmouseover="changeLoc('Poarta ecaterinei')" href="locatie.html?loc=poarta_ecaterinei" coords="532,456,10"
+            shape="circle">
+        <area onmouseover="changeLoc('Colegiul National Unirea')" href="locatie.html?loc=colegiul_national_unirea"
+            coords="1007,188,10" shape="circle">
+        <area onmouseover="changeLoc('Turnul Negru')" href="locatie.html?loc=turnul_negru" coords="516,341,10"
+            shape="circle">
+        <area onmouseover="changeLoc('Turnul Alb')" href="locatie.html?loc=turnul_alb" coords="558,232,10"
+            shape="circle">
+        <area onmouseover="changeLoc('Bastionul fierarilor')" href="locatie.html?loc=bastionul_fierarilor"
+            coords="520,388,10" shape="circle">
+        <area onmouseover="changeLoc('Muzeul de arta')" href="locatie.html?loc=muzeul_de_arta" coords="886,94,10"
+            shape="circle">
+        <area onmouseover="changeLoc('Muzeul Casa Muresanu')" href="locatie.html?loc=muzeul_casa_muresenilor"
+            coords="639,254,10" shape="circle">
+        <area onmouseover="changeLoc('Casa Hirscher')" href="locatie.html?loc=casa_hirscher" coords="701,350,10"
+            shape="circle">
+    </map>
+
+    <div class="location" id="loc"> -Selecteaza o locatie- </div>
+
+    <div id="sidemenu" class="menu">
+        <button class="closebtn" onclick="closeNav()">x</button>
+    </div>
+    <p class="menu_button" onclick="openNav()">Cauta hotel</p>
+</body>
+<script src="scripts/external/jquery.js"></script>
+<script src="scripts/external/imageMapResizer.min.js"></script>
+<script src="scripts/brasov.js"></script>
+
+</html>

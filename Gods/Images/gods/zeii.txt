@@ -1,0 +1,75 @@
+zeus god of the sky
+poseidon god of the sea 
+ares god of war
+aphrodite goddess of love
+hera goddess of women
+demeter goddess of harvest
+
+('Atena', 'Zeita strategiei', 'greek', 'a'),
+('Apollo', 'Zeul soarelui', 'greek', 'a'),
+('Artemis', 'Zeita vanatorii', 'greek', 'a'),
+('Hephaestus', 'Zeul focului', 'greek', 'a'),
+('Hermes', 'Mesagerul zeilor', 'greek', 'a'),
+('Dionysus', 'Zeul vinului', 'greek', 'a');
+
+athena goddess of strategy
+apollo god of the sun
+artemis goddess of the hunt
+hephaestus god of fire
+hermes the messenger god
+dionysus god of wine
+
+odin the king of the aesir
+frigg queen of the aesir
+thor god of thunder
+baldur god of light
+tyr god of war
+bragi god of poetry
+loki god of trickery
+njord god of the sea
+freyr god of fertiliy
+freya goddess of love
+
+('Odin', 'Regele zeilor nordici', 'norse', 'a'),
+('Frigg', 'Sotia lui odin', 'norse', 'a'),
+('Thor', 'Zeul fulgerului', 'norse', 'a'),
+('Baldur', 'Zeul luminii', 'norse', 'a'),
+('Tyr', 'Zeul razboiului', 'norse', 'a'),
+('Bragi', 'Zeul poeziei', 'norse', 'a');
+('Loki', 'Zeul inselaciunii', 'norse', 'a'),
+('Njord', 'Zeul marii', 'norse', 'a'),
+('Freyr', 'Zeul fertilitatii', 'norse', 'a'),
+('Freya', 'Zeita iubirii', 'norse', 'a');
+
+('Forseti', 'Zeul justitiei', 'norse', 'a'),
+('Idun', 'Zeita tineretii', 'norse', 'a'),
+('Mimir', 'Zeul cunoasterii', 'norse', 'a'),
+('Ymir', 'Zeul furtunii', 'norse', 'a');
+
+osiris god of underworld
+isis goddess of healing
+horus god of the sky
+seth god of chaos
+ptah creator of all things
+ra god of the sun
+anubis god of the dead
+khonsu god of the moon
+bastet goddess of protection
+shu god of wind
+
+('Osiris', 'Zeul vietii de apoi', 'egyptian', 'a'),
+('Isis', 'Zeita vindecarii', 'egyptian', 'a'),
+('Horus', 'Zeul cerului', 'egyptian', 'a'),
+('Seth', 'Zeul haosului', 'egyptian', 'a'),
+('Ptah', 'Zeul creator', 'egyptian', 'a'),
+('Ra', 'Zeul soarelui', 'egyptian', 'a'),
+('Anubis', 'Zeul mortii', 'egyptian', 'a'),
+('Khonsu', 'Zeul lunii', 'egyptian', 'a'),
+('Bastet', 'Zeita protectiei', 'egyptian', 'a'),
+('Shu', 'Zeul vantului', 'egyptian', 'a');
+
+nume
+porecla
+mitologie
+despre
+

@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Caesar";
+    src: url("../Fonts/MainFont/CAESAR.ttf") format("woff");
+}
+
+body {
+    font-family: 'Caesar';
+    background-image: url("../Images/IndexBackground.jpg");
+    background-repeat: repeat;
+}
+
+.Title {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    text-align: center;
+}
+
+.GodsContainer {
+    background-color: rgba(0, 0, 0, 0.664);
+    border-radius: 10px;
+    position: relative;
+    width: 81%;
+    text-align: left;
+    color: white;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.God {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+.God:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.GodNameCont {
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin: auto;
+}
+
+.GodName {
+    font-family: 'Caesar', Times, serif;
+    font-size: 20px;
+    margin: auto;
+}
+
+.GodNickname {
+    font-family: 'Caesar', Times, serif;
+    font-size: 12px;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+
+.ButtonPanel {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ButtonPanel button {
+    font-family: 'Caesar', Times, serif;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+    padding: 15px 100px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.ButtonPanel:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.ButtonPanel button:not(:last-child) {
+    border-right: none;
+}
+
+.ButtonPanel button:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+.SearchGod {
+    font-family: 'Caesar', Times, serif;
+    width: 170px;
+    height: 35px;
+    position: absolute;
+    margin: auto;
+    margin-top: 20px;
+    left: 11%;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    opacity: 0.80;
+    transition: 0.2s all ease;
+}
+
+.SearchGod:focus {
+    opacity: 1;
+    transition: 0.2s all ease;
+    outline: none;
+    width: 250px;
+}
+
+.Arena {
+    position: absolute;
+    text-decoration: none;
+    letter-spacing: 2px;
+    right: 300px;
+    margin-top: 120px;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.Arena:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
